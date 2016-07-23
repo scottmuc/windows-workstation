@@ -1,0 +1,4 @@
+Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+
+choco install battle.net
+choco install goggalaxy
