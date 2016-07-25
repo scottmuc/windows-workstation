@@ -1,13 +1,15 @@
-Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Set-ExplorerOptions -showFileExtensions
 
 choco install battle.net
 choco install goggalaxy
+choco install steam
 
 choco install googlechrome
 choco install 1password
 
 choco install vlc
 choco install handbrake
+choco install kodi
 choco install eac
 
 choco install git
@@ -16,4 +18,3 @@ choco install virtualbox
 choco install vagrant
 
 choco install libreoffice
-
