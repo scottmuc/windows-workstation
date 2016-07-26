@@ -1,5 +1,12 @@
 Set-ExplorerOptions -showFileExtensions
 
+# Wait, aren't we already using boxstarter? Yes, but in the bootstrapped context we
+# are just hitting a http://boxstarter.org/package/url?this_file to get the machine
+# started. After that, we should never need to use that method for updating the machine
+# again if new packages are added. This might not make sense in the future, but let's
+# try it out for now.
+choco install boxstarter
+
 # Switchings CAPSLOCK to CTRL
 $hexified = "00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00".Split(',') | % { "0x$_"}
 $kbLayout = 'HKLM:\System\CurrentControlSet\Control\Keyboard Layout'
