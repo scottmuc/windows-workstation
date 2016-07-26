@@ -28,5 +28,6 @@ choco install git
 choco install golang
 choco install virtualbox
 choco install vagrant
+choco install vim
 
 choco install libreoffice
